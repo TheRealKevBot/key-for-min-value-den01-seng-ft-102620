@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   the_key = nil 
-  starting = FIXNUM::MIN
+  starting = 
   name_hash.each do |id, num|
     if num <= starting
       starting = num
