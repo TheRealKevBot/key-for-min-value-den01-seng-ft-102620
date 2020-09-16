@@ -3,10 +3,10 @@
 
 def key_for_min_value(name_hash)
   the_key = nil 
-  starting = 
+  the_value = 
   name_hash.each do |id, num|
-    if num <= starting
-      starting = num
+    if num <= the_value
+      the_value = num
       the_key = id
     end
   end
